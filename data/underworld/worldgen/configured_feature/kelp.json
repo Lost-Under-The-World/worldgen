@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count_multilayer",
+        "config": {
+          "count": 100
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:square",
+            "config": {}
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:range",
+                "config": {
+                  "maximum": 100,
+                  "bottom_offset": 16,
+                  "top_offset": 0
+                }
+              },
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "Name": "minecraft:kelp",
+                    "Properties": {
+                      "age": "0"
+                    }
+                  },
+                  "place_on": [
+                    {
+                      "Name": "minecraft:sand"
+                    }
+                  ],
+                  "place_in": [
+                    {
+                      "Name": "minecraft:water",
+                      "Properties": {
+                        "level": "0"
+                      }
+                    }
+                  ],
+                  "place_under": [
+                    {
+                      "Name": "minecraft:water",
+                      "Properties": {
+                        "level": "0"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

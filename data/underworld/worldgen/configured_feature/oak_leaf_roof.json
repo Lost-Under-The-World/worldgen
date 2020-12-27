@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_extra",
+      "config": {
+        "count": 500,
+        "extra_count": 0,
+        "extra_chance": 0
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 255,
+                "bottom_offset": 0,
+                "top_offset": 0
+              }
+            },
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "Name": "minecraft:oak_leaves",
+                  "Properties": {
+                    "persistent": "true",
+                    "distance": "7"
+                  }
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  },
+                  {
+                    "Name": "minecraft:grass"
+                  },
+                  {
+                    "Name": "minecraft:cave_air"
+                  },
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:cave_air"
+                  },
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:stone"
+                  },
+                  {
+                    "Name": "minecraft:dirt"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
