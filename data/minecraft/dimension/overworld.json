@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": 0,
       "altitude_noise": {
-        "firstOctave": -5,
+        "firstOctave": -6,
         "amplitudes": [
-          1,
+          2,
           1
         ]
       },
       "temperature_noise": {
-        "firstOctave": -5,
+        "firstOctave": -6,
         "amplitudes": [
           1,
           1
         ]
       },
       "humidity_noise": {
-        "firstOctave": -5,
+        "firstOctave": -6,
         "amplitudes": [
           1,
           1
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -5,
+        "firstOctave": -6,
         "amplitudes": [
           1,
           1
@@ -39,57 +39,47 @@
           "biome": "underworld:badlands",
           "parameters": {
             "altitude": 0.3,
-            "temperature": 0.5,
+            "temperature": 0.9,
             "humidity": -0.6,
             "weirdness": -0.3,
-            "offset": 0.2
-          }
-        },
-        {
-          "biome": "underworld:beach",
-          "parameters": {
-            "altitude": -0.05,
-            "temperature": -0.05,
-            "humidity": 0.8,
-            "weirdness": 0.1,
-            "offset": 0
+            "offset": 0.1
           }
         },
         {
           "biome": "underworld:desert",
           "parameters": {
             "altitude": 0.1,
-            "temperature": 0.55,
+            "temperature": 1,
             "humidity": -0.7,
-            "weirdness": -0.2,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
           "biome": "underworld:forest",
           "parameters": {
-            "altitude": 0.25,
-            "temperature": 0.3,
-            "humidity": 0.5,
-            "weirdness": -0.35,
-            "offset": 0
+            "altitude": 0.2,
+            "temperature": 0,
+            "humidity": 0.2,
+            "weirdness": -0.3,
+            "offset": 0.3
           }
         },
         {
-          "biome": "minecraft:jungle",
+          "biome": "underworld:jungle",
           "parameters": {
-            "altitude": 0.15,
-            "temperature": 0.65,
-            "humidity": 0.45,
-            "weirdness": -0.4,
+            "altitude": 0,
+            "temperature": 0.3,
+            "humidity": 0.3,
+            "weirdness": -0.5,
             "offset": 0
           }
         },
         {
           "biome": "minecraft:mountains",
           "parameters": {
-            "altitude": 0.82,
-            "temperature": -0.42,
+            "altitude": 1,
+            "temperature": -0.5,
             "humidity": 0,
             "weirdness": 0,
             "offset": 0
@@ -99,70 +89,80 @@
           "biome": "underworld:mushroom",
           "parameters": {
             "altitude": 0,
-            "temperature": 0.1,
+            "temperature": 0.2,
             "humidity": 0.6,
-            "weirdness": 0.6,
-            "offset": 0
+            "weirdness": 1,
+            "offset": 0.46
+          }
+        },
+        {
+          "biome": "underworld:beach",
+          "parameters": {
+            "altitude": -0.9,
+            "temperature": 0,
+            "humidity": 0.9,
+            "weirdness": 0,
+            "offset": 0.44
           }
         },
         {
           "biome": "underworld:flooded",
           "parameters": {
-            "altitude": -0.8,
-            "temperature": -0.05,
-            "humidity": 0.7,
-            "weirdness": 0.1,
+            "altitude": -1,
+            "temperature": 0,
+            "humidity": 1,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
           "biome": "underworld:plains",
           "parameters": {
-            "altitude": 0.1,
+            "altitude": 0,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": -0.8,
+            "weirdness": -0.85,
             "offset": 0
           }
         },
         {
-          "biome": "minecraft:savanna",
+          "biome": "underworld:savanna",
           "parameters": {
             "altitude": 0.3,
             "temperature": 0.6,
             "humidity": -0.4,
             "weirdness": 0.1,
-            "offset": 0
+            "offset": 0.3
           }
         },
         {
           "biome": "underworld:icy",
           "parameters": {
-            "altitude": 0.65,
-            "temperature": -0.55,
-            "humidity": 0.21,
-            "weirdness": 0.35,
-            "offset": 0
+            "altitude": 0.6,
+            "temperature": -1,
+            "humidity": 0,
+            "weirdness": 0.1,
+            "offset": 0.1
           }
         },
         {
           "biome": "minecraft:swamp",
           "parameters": {
             "altitude": -0.05,
-            "temperature": 0.3,
-            "humidity": 0.8,
-            "weirdness": 0.1,
+            "temperature": 0.5,
+            "humidity": 0.7,
+            "weirdness": 0,
             "offset": 0
           }
         },
         {
-          "biome": "minecraft:taiga",
+          "biome": "underworld:taiga",
           "parameters": {
             "altitude": 0.2,
-            "temperature": -0.3,
-            "humidity": 0.5,
+            "temperature": -0.1,
+            "humidity": 0.3,
             "weirdness": 0,
-            "offset": 0.2
+            "offset": 0.5
           }
         }
       ]

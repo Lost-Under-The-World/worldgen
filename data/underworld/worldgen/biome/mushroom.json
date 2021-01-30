@@ -57,7 +57,9 @@
             "minecraft:spring_water",
             "minecraft:spring_lava"
         ],
-        []
+        [
+            "underworld:huge_mushrooms"
+        ]
     ],
     "starts": [
         "minecraft:mineshaft",

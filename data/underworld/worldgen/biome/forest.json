@@ -40,7 +40,6 @@
             "minecraft:ore_redstone",
             "minecraft:ore_diamond",
             "underworld:ore_shroomlight",
-            "underworld:ore_oak_leaves",
             "minecraft:ore_lapis",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
@@ -49,7 +48,6 @@
         [],
         [
             "minecraft:patch_tall_grass_2",
-            "underworld:oak_leaf_roof",
             "minecraft:flower_plain_decorated",
             "minecraft:patch_grass_plain",
             "minecraft:brown_mushroom_normal",
@@ -59,7 +57,9 @@
             "minecraft:spring_water",
             "minecraft:spring_lava"
         ],
-        []
+        [
+            "underworld:trees_forest"
+        ]
     ],
     "starts": [
         "minecraft:mineshaft",

@@ -40,7 +40,6 @@
             "minecraft:ore_redstone",
             "minecraft:ore_diamond",
             "underworld:ore_shroomlight",
-            "underworld:ore_oak_leaves",
             "minecraft:ore_lapis",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
@@ -59,7 +58,9 @@
             "minecraft:spring_water",
             "minecraft:spring_lava"
         ],
-        []
+        [
+            "underworld:trees_plains"
+        ]
     ],
     "starts": [
         "minecraft:mineshaft",

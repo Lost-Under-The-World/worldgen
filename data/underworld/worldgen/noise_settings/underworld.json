@@ -15,10 +15,12 @@
   "noise": {
     "height": 128,
     "density_factor": 0,
-    "density_offset": 0.021,
-    "size_horizontal": 1,
-    "size_vertical": 2,
+    "density_offset": 0.024,
+    "size_horizontal": 2,
+    "size_vertical": 1,
     "simplex_surface_noise": false,
+    "random_density_offset": true,
+    "island_noise_override": false,
     "sampling": {
       "xz_scale": 10,
       "y_scale": 20,
@@ -28,12 +30,12 @@
     "bottom_slide": {
       "target": 100,
       "size": 3,
-      "offset": 1
+      "offset": 2
     },
     "top_slide": {
       "target": 100,
       "size": 3,
-      "offset": 0
+      "offset": 2
     }
   },
   "structures": {

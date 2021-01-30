@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 2
+      }
+    },
+    "feature": "underworld:tree_acacia"
+  }
+}

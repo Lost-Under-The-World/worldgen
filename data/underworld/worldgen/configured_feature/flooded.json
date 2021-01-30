@@ -38,7 +38,7 @@
                 "level": "0"
               }
             },
-            "size": 64,
+            "size": 50,
             "target": {
               "predicate_type": "minecraft:block_match",
               "block": "minecraft:air"
